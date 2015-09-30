@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.helloworld"
+        version   = "1.0.0">
+
+    <name>WebGL Earth Test</name>
+
+    <description>
+        WebGL Earth Test
+    </description>
+
+    <author href="http://www.atgard.se" email="micke@atgard.se">
+        WebGL Earth Test
+    </author>
+	
+	
+	<!-- RUN NEWEST CORDOVA AND CROSSWALK -->
+	<preference name='phonegap-version' value='cli-5.1.1' />
+	<gap:plugin name='org.crosswalk.engine' version='1.3.0' source='pgb' />
+	
+	
+	
+	<!-- DEVICE FUNCTIONS 
+	<gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.network-information" /> -->
+	
+	
+	
+	<!-- WEBSERVER -->
+	<gap:plugin name="com.rjfun.cordova.httpd" version="0.9.0" />
+	
+	
+	<access origin="*" />
+	
+	
+	<icon src="icon.png" />
+	
+	
+	</widget>
