@@ -7,31 +7,21 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>WebGL Earth Test</name>
+    <name>Nova Lii</name>
 
     <description>
-        WebGL Earth Test
+        Nova Lii
     </description>
 
     <author href="http://www.atgard.se" email="micke@atgard.se">
-        WebGL Earth Test
+        Nova Lii
     </author>
 	
 	
 	<!-- RUN NEWEST CORDOVA AND CROSSWALK -->
 	<preference name='phonegap-version' value='cli-5.1.1' />
 	<gap:plugin name='org.crosswalk.engine' version='1.3.0' source='pgb' />
-	
-	
-	
-	<!-- DEVICE FUNCTIONS 
-	<gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.network-information" /> -->
-	
-	
-	
-	<!-- WEBSERVER -->
-	<gap:plugin name="com.rjfun.cordova.httpd" version="0.9.0" />
+
 	
 	
 	<access origin="*" />
